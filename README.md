@@ -12,16 +12,21 @@ Please make sure you have completed the soot survey at:
     [soot.binghamton.edu](https://soot.binghamton.edu)
 
 Please list the urls for the APIs you used:
+Location API: https://www.metaweather.com/api/ 
+Weather API: https://www.metaweather.com/api/
 
-Summary of Program:
+Summary of Program: The program asks the user for a city and a date. The location API retrieves the Where on Earth ID and the second API uses the ID and the date inputted by the user to retrieve information about the weather that day. 
 
 Most Challenging topic in the course:
+  The most challenging topic of the course was first learning about classes as I could not wrap my head around using self as a parameter.
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+ The program is complete but it asks for the user to input the city twice.
 
 ## REFERENCES:
- < List any outside resources used >
+ https://www.metaweather.com/api/
+ https://github.com/toddmotto/public-apis
+
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+ Thank you for teaching this course!
