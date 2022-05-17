@@ -20,8 +20,9 @@ Summary of Program: The program asks the user for a city and a date. The locatio
 Most Challenging topic in the course:
   The most challenging topic of the course was first learning about classes as I could not wrap my head around using self as a parameter.
 
-## KNOWN BUGS AND INCOMPLETE PARTS:
- The program is complete but it asks for the user to input the city twice.
+## KNOWN BUGS AND INCOMPLETE PARTS: 
+The if statement in the api classes does not work without a statement such as true = True which makes the condition happen.
+ 
 
 ## REFERENCES:
  https://www.metaweather.com/api/

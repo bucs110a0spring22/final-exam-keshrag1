@@ -18,9 +18,8 @@ class Location:
     r = requests.get(self.url)
     response = r.json()
     true = True
-    if ('data' in response) or true == True:
+    if ('data'in response) or true == True:
       return response[0]
-      
     else:
       return None
   

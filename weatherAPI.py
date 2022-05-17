@@ -11,8 +11,8 @@ class Weather():
     """
     lapi = locationAPI.Location()
     info = lapi.get()
-    locationID = (info.get('woeid')) #okay , no problem, take care, thanks for your help
-    date = input('Enter a date in the format of yyyy/mm/dd: ')
+    locationID = (info.get('woeid')) 
+    date = input('Enter today\'s date in the format of yyyy/mm/dd: ')
     self.url =  f'https://www.metaweather.com/api/location/{locationID}/{date}'
 
   def get(self):
@@ -21,7 +21,7 @@ class Weather():
     args: self(object) this is the Weather class
     returns: Weather information of a city on a specific day(str), none
     """
-    r = requests.get(self.url) #LocationID is empty. alright. Thank you very much!
+    r = requests.get(self.url) 
     response = r.json()
     true = True
     if ('data' in response) or true == True:

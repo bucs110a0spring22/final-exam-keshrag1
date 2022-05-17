@@ -2,11 +2,6 @@ import locationAPI
 import requests
 import weatherAPI
 def main():
-  lapi = locationAPI.Location()
-  info = lapi.get()
-  #print(info)
-  #print(type(info))
-  #print(info['woeid'])
   wapi = weatherAPI.Weather()
   weather_data = wapi.get()
   precipitation = weather_data.get('weather_state_name')
